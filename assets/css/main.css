@@ -251,6 +251,14 @@ section {
   color: var(--color-primary);
   font-weight: 500;
 }
+@media (max-width: 640px) {
+  .header .logo h1 {
+  font-size: 28px;
+  font-weight: 300;
+  color: rgba(var(--color-white-rgb), 0.9);
+  font-family: var(--font-secondary);
+}
+}
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
